@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ColorRave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400&family=PT+Serif:ital,wght@0,400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header class="header">
@@ -91,13 +97,15 @@
             </div>
         </section>
         <section class="order">
-            <ul class="order_list">
-                <li class="order_item"><a href="#" class="order_link">Write your email</a> <button class="order_list_button">Confirm</button></li>
-                <li class="order_item"><a href="#" class="order_link">Your Country</a></li>
-                <li class="order_item"><a href="#" class="order_link">Your City</a></li>
-                <li class="order_item"><a href="#" class="order_link">Your Adress</a></li>
-            </ul>
-            <button class="order_button">Order my Nike</button>
+            <div class="container">
+                <ul class="order_list">
+                    <li class="order_item"><a href="#" class="order_link">Write your email</a> <button class="order_list_button">Confirm</button></li>
+                    <li class="order_item"><a href="#" class="order_link">Your Country</a></li>
+                    <li class="order_item"><a href="#" class="order_link">Your City</a></li>
+                    <li class="order_item"><a href="#" class="order_link">Your Adress</a></li>
+                </ul>
+                <button class="order_button">Order my Nike</button>
+            </div>
         </section>
     </main>
     <footer class="footer">
