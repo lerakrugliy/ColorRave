@@ -77,4 +77,42 @@
     color: var(--main-text-color);
 }
 
+.hero {
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--main-text-color);
+    padding: 150px 0;
+}
+
+.hero_title {
+    font-family: var(--second-family);
+    font-size: 144px;
+    margin-bottom: 8px;
+}
+
+.hero_subtitle {
+    font-family: var(--second-family);
+    font-size: 72px;
+    margin-bottom: 12px;
+}
+
+.hero_text {
+    max-width: 700px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hero_button {
+    background-color: var(--acent-color);
+    text-decoration: none;
+    padding: 16px 32px;
+    font-size: 24px;
+    border-radius: 7px;
+}
+
+.hero_button:hover {
+    background-color: #6e0eaa;
+}
 
