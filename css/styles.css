@@ -131,7 +131,6 @@
 .benefits_container {
     display: flex;
     justify-content: center;
-    border: 3px solid var(--acent-color);
 }
 
 .benefits_list {
@@ -140,6 +139,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    border: 3px solid var(--acent-color);
 }
 
 .benefits_item {
@@ -170,5 +170,97 @@
     text-align: center;
     margin-bottom: 4px;
     line-height: 1.2;
+}
+
+.reviews {
+    height: 520px;
+    color: var(--main-text-color);
+    background-image: url('../img/reviews.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25px 114px;
+    display: flex;
+    align-items: center;
+}
+
+.reviews_title {
+    font-family: var(--second-family);
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.reviews_list {
+    display: flex;
+    justify-content: center;
+    gap: 93px;
+}
+
+.reviews_item {
+    border-radius: 15px;
+    padding-left: 18px;
+    width: 255px;
+    height: 292px;
+}
+
+.reviews_item:first-child {
+    box-shadow: 0 14px 0 -5px #7b54b2, 0 30px 0 -13px #533978;
+    background-image:
+        linear-gradient(135deg,
+            #00e5e6 7%,
+            #00a8f7 26%,
+            #9a76f9 63%,
+            #cc5ec2 100%);
+}
+
+.reviews_item:nth-child(2) {
+    box-shadow: 0 14px 0 -5px #9159b1, 0 30px 0 -13px #61337c;
+    background-image:
+        linear-gradient(135deg,
+            #FF68B4 7%,
+            #FF45E1 26%,
+            #CE3AFF 63%,
+            #8961FF 100%);
+}
+
+.reviews_item:last-child {
+    box-shadow: 0 14px 0 -5px #b95a4c, 0 30px 0 -13px #732f26;
+    background-image:
+        linear-gradient(135deg,
+            #FFE128 7%,
+            #FF9B5C 30%,
+            #FF8381 63%,
+            #FF5489 100%);
+}
+
+.reviews_text {
+    margin-top: 49px;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.reviews_time {
+    font-size: 14px;
+    color: var(--fourth-text-color);
+    margin-bottom: 47px;
+}
+
+.reviews_account {
+    display: flex;
+}
+
+.reviews_name {
+    font-size: 14px;
+}
+
+.reviews_year {
+    font-size: 12px;
+    color: var(--fourth-text-color);
+}
+
+.reviews_info {
+    margin-left: 5px;
+    flex-direction: column;
 }
 
