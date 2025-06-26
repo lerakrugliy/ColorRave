@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorRave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400&family=PT+Serif:ital,wght@0,400&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header_container">
+            <nav class="header_nav">
+                <a href="./index.html"><img src="./img/logo.svg" alt="logo"></a>
+                <ul class="header_list">
+                    <li class="header_item current"><a href="./index.html">Головна</a></li>
+                    <li class="header_item"><a href="benefits">Переваги</a></li>
+                    <li class="header_item"><a href="advantages">Основні</a></li>
+                    <li class="header_item"><a href="reviews">Відгуки</a></li>
+                    <li class="header_item"><a href="footer">Контакти</a></li>
+                    <li class="header_item"><a href="order">Замовити</a></li>
+                </ul>
+                <ul class="header_language">
+                    <li class="header_item_language_ua"><a href="./index_ua.html">Укр</a></li>
+                    <li class="header_item_language_ua"><a href="./index.html">Англ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <img src="./img/nike.svg" alt="logo">
+                <h1 class="hero_title">ColoRawe</h1>
+                <h2 class="hero_subtitle">Твоя мрія Nike</h2>
+                <p class="hero_text">На цьому сайті ви можете знайти кастомні кросівки Nike вашої мрії.<br>
+                    Оригінальна компанія не може створити такі красиві <br>
+                    кросівки, як ми. <br>
+                    Успіхів вам у пошуку свого шляху у світі кастомних кросівок.</p>
+                <a class="hero_button" href="https://www.nike.com">Купіть Nike</a>
+            </div>
+        </section>
+        <section class="benefits" id="benefits">
+            <div class="container benefits_container">
+                <ul class="benefits_list">
+                    <li class="benefits_item">
+                        <p class="benefits_text">Преміальна якість</p>
+                        <img src="./img/stars.svg" alt="Premium Quality"></img>
+                    </li>
+                    <li class="benefits_item">
+                        <p class="benefits_text">Незмивна фарба</p>
+                        <img src="./img/paint.svg" alt="Indelible paint"></img>
+                    </li>
+                    <li class="benefits_item">
+                        <p class="benefits_text">Швидка доставка</p>
+                        <img src="./img/car.svg" alt="Fast shipping"></img>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="reviews" id="reviews">
+            <div class="container">
+                <h2 class="reviews_title">Відгуки</h2>
+                <ul class="reviews_list">
+                    <li class="reviews_item">
+                        <p class="reviews_text">Кросівки надзвичайно зручні і добре пофарбовані, нічого не стерлося за рік.</p>
+                        <p class="reviews_time">25:11</p>
+                        <div class="reviews_account">
+                            <img src="./img/human1.svg" alt="human"></img>
+                            <div class="reviews_info">
+                                <p class="reviews_name">Джон Тейлор</p>
+                                <p class="reviews_year">З нами з 2018 року</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="reviews_item">
+                        <p class="reviews_text">Я дуже задоволена цією кольоровою гамою. Вони пасують до всього мого одягу.</p>
+                        <p class="reviews_time">05:01</p>
+                        <div class="reviews_account">
+                            <img src="./img/human2.svg" alt="human"></img>
+                            <div class="reviews_info">
+                                <p class="reviews_name">Єлизавета Гарсія</p>
+                                <p class="reviews_year">З нами з 2020 року</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="reviews_item">
+                        <p class="reviews_text">Tе, що треба, якщо потрібно піти на вечірку. Користуюся ними активно, фарба супер.</p>
+                        <p class="reviews_time">18:06</p>
+                        <div class="reviews_account">
+                            <img src="./img/human3.svg" alt="human"></img>
+                            <div class="reviews_info">
+                                <p class="reviews_name">Том Макваре</p>
+                                <p class="reviews_year">З нами з 2019 року</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="order" id="order">
+            <div class="container order_container">
+                <h2 class="order_title">Замовити</h2>
+                <ul class="order_list">
+                    <li class="order_item"><a href="#" class="order_link">Напишить свій емейл</a> <button
+                            class="order_list_button">Підтвердити</button></li>
+                    <li class="order_item"><a href="#" class="order_link">Ваша країна</a></li>
+                    <li class="order_item"><a href="#" class="order_link">Ваше місто</a></li>
+                    <li class="order_item"><a href="#" class="order_link">Ваша адресса</a></li>
+                </ul>
+                <button class="order_button">Замовити Nike</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer_div_top">
+                <ul class="footer_list_left">
+                    <li class="footer_item">Маєте запитання?</li>
+                    <li class="footer_item">Маєте пропозицію про співпрацю?</li>
+                    <li class="footer_item">Питання щодо реклами?</li>
+                </ul>
+                <ul class="footer_list_right">
+                    <li class="footer_right_item">ColoRawe_support@gmail.com</li>
+                    <li class="footer_right_item">ColoRawe_Cooperation@gmail.com</li>
+                    <li class="footer_right_item">ColoRawe_Advertising@gmail.com</li>
+                </ul>
+            </div>
+            <div class="footer_div_bottom">
+                <div class="footer_text">
+                    <p class="footer_text_year">2022 ColoRawe @All rights reserved</p>
+                    <p class="footer_text_country">United States</p>
+                </div>
+                <div class="footer_logo">
+                    <img src="./img/nike.svg" alt="logo">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

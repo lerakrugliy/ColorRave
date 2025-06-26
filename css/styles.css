@@ -79,6 +79,17 @@
     color: var(--main-text-color);
 }
 
+.header_item_language_ua {
+    font-weight: 300;
+    font-size: 24px;
+    color: var(--third-text-color);
+}
+
+.header_item_language_ua:first-child {
+    font-weight: 400;
+    color: var(--main-text-color);
+}
+
 .hero {
     background-image: url('../img/hero.jpg');
     background-size: cover;
