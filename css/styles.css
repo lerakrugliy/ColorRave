@@ -13,6 +13,7 @@
     --second-family: "Playfair Display", serif;
     --third-family: "PT Serif", serif;
 }
+
 .body{
     font-family: var(--font-family);
     color: var(--main-text-color);
@@ -25,6 +26,7 @@
     padding: 0 15px;
     outline: 3px solid pink;
 }
+
 .header{
     padding: 15px 15px;
     background-color: var(--header-bg);
@@ -34,6 +36,7 @@
     display: flex;
     align-items: center;
 }
+
 .header_logo img{
     height: 48px;
 }
@@ -58,7 +61,9 @@
     font-size: 24px;
     color: var(--second-text-color);
 }
-.current{
+.current,
+.header_item:hover,
+.header_item_language:hover{
     font-weight: 400;
     color: var(--main-text-color);
 }
@@ -127,6 +132,7 @@
 
 .hero_button:hover {
     background-color: #6e0eaa;
+    cursor: pointer;
 }
 
 .benefits {
@@ -325,7 +331,6 @@
     background-color: var(--main-text-color);
     color: var(--fifth-text-color);
 }
-
 .order_item:first-child {
     border-radius: 50px;
     width: 690px;
@@ -349,6 +354,11 @@
     color: var(--sixth-text-color);
 }
 
+.order_list_button:hover{
+    cursor: pointer;
+    color: var(--acent-color);
+}
+
 .order_button{
     width: 248px;
     height: 68px;
@@ -356,6 +366,11 @@
     font-size: 24px;
     color: var(--main-text-color);
     background-color: var(--acent-color);
+}
+
+.order_button:hover {
+    background-color: #6e0eaa;
+    cursor: pointer;
 }
 
 .footer{
@@ -383,6 +398,11 @@
     flex-direction: column;
     align-items: end;
     gap: 10px;
+}
+
+.footer_right_item:hover{
+    color: var(--acent-color);
+    cursor: pointer;
 }
 
 .footer_item{
