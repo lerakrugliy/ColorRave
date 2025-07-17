@@ -105,12 +105,16 @@
         <section class="order" id="order">
             <div class="container order_container">
                 <h2 class="order_title">Order</h2>
-                <ul class="order_list">
-                    <li class="order_item"><a href="#" class="order_link">Write your email</a> <button class="order_list_button">Confirm</button></li>
-                    <li class="order_item"><a href="#" class="order_link">Your Country</a></li>
-                    <li class="order_item"><a href="#" class="order_link">Your City</a></li>
-                    <li class="order_item"><a href="#" class="order_link">Your Adress</a></li>
-                </ul>
+                <form class="order_list">
+                    <div class="order_row">
+                        <input type="email" placeholder="Write your email" name="email" required />
+                        <button type="button" class="order_list_button">Confirm</button>
+                    </div>
+                
+                    <input type="text" placeholder="Your Country" name="country" required />
+                    <input type="text" placeholder="Your City" name="city" required />
+                    <input type="text" placeholder="Your Address" name="address" required />
+                </form>
                 <button class="order_button">Order my Nike</button>
             </div>
         </section>
