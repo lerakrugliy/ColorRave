@@ -55,15 +55,15 @@
                 <ul class="benefits_list">
                     <li class="benefits_item">
                         <p class="benefits_text">Преміальна якість</p>
-                        <img src="./img/stars.svg" alt="Premium Quality"></img>
+                        <img src="./img/stars.svg" alt="Premium Quality">
                     </li>
                     <li class="benefits_item">
                         <p class="benefits_text">Незмивна фарба</p>
-                        <img src="./img/paint.svg" alt="Indelible paint"></img>
+                        <img src="./img/paint.svg" alt="Indelible paint">
                     </li>
                     <li class="benefits_item">
                         <p class="benefits_text">Швидка доставка</p>
-                        <img src="./img/car.svg" alt="Fast shipping"></img>
+                        <img src="./img/car.svg" alt="Fast shipping">
                     </li>
                 </ul>
             </div>
@@ -76,7 +76,7 @@
                         <p class="reviews_text">Кросівки надзвичайно зручні і добре пофарбовані, нічого не стерлося за рік.</p>
                         <p class="reviews_time">25:11</p>
                         <div class="reviews_account">
-                            <img src="./img/human1.svg" alt="human"></img>
+                            <img src="./img/human1.svg" alt="human">
                             <div class="reviews_info">
                                 <p class="reviews_name">Джон Тейлор</p>
                                 <p class="reviews_year">З нами з 2018 року</p>
@@ -87,7 +87,7 @@
                         <p class="reviews_text">Я дуже задоволена цією кольоровою гамою. Вони пасують до всього мого одягу.</p>
                         <p class="reviews_time">05:01</p>
                         <div class="reviews_account">
-                            <img src="./img/human2.svg" alt="human"></img>
+                            <img src="./img/human2.svg" alt="human">
                             <div class="reviews_info">
                                 <p class="reviews_name">Єлизавета Гарсія</p>
                                 <p class="reviews_year">З нами з 2020 року</p>
@@ -98,7 +98,7 @@
                         <p class="reviews_text">Tе, що треба, якщо потрібно піти на вечірку. Користуюся ними активно, фарба супер.</p>
                         <p class="reviews_time">18:06</p>
                         <div class="reviews_account">
-                            <img src="./img/human3.svg" alt="human"></img>
+                            <img src="./img/human3.svg" alt="human">
                             <div class="reviews_info">
                                 <p class="reviews_name">Том Макваре</p>
                                 <p class="reviews_year">З нами з 2019 року</p>
@@ -111,13 +111,15 @@
         <section class="order" id="order">
             <div class="container order_container">
                 <h2 class="order_title">Замовити</h2>
-                <ul class="order_list">
-                    <li class="order_item"><a href="#" class="order_link">Напишить свій емейл</a> <button
-                            class="order_list_button">Підтвердити</button></li>
-                    <li class="order_item"><a href="#" class="order_link">Ваша країна</a></li>
-                    <li class="order_item"><a href="#" class="order_link">Ваше місто</a></li>
-                    <li class="order_item"><a href="#" class="order_link">Ваша адресса</a></li>
-                </ul>
+                <form class="order_list">
+                    <div class="order_row">
+                        <input type="email" placeholder="Напишіть свій емейл" name="email" required />
+                        <button type="button" class="order_list_button">Підтвердити</button>
+                    </div>
+                    <input type="text" placeholder="Ваша країна" name="country" required />
+                    <input type="text" placeholder="Ваша місто" name="city" required />
+                    <input type="text" placeholder="Ваша адресса" name="address" required />
+                </form>
                 <button class="order_button">Замовити Nike</button>
             </div>
         </section>
